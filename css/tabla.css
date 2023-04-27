@@ -1,0 +1,22 @@
+#tbody-tabla tr td:last-child{
+    position: relative;
+}
+.controles-edicion{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.icono-editar,
+.icono-eliminar
+{
+    cursor: pointer;
+    padding: 5px;
+}
+.icono-editar:hover,
+.icono-eliminar:hover{
+    background-color: #eeeeee;
+}
+#formulario-editar{
+    display: none;
+}
+

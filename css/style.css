@@ -1,0 +1,149 @@
+body{
+    background-color: #ffe7e7;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+}
+
+.container{
+    max-width: 1600px;
+}
+
+nav.navbar  {
+    background-color: #910303;
+   
+}
+.section {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.card img {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    height: 200px;
+    width: auto;
+  
+    background: rgba(254, 254, 254, 1);
+    border: rgba(11, 11, 11, 0.48);
+    border-radius: 2px;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+
+ 
+  border: 8px solid #ccc;
+  text-decoration: none;
+  }
+  .card{
+    border-radius: 5px;
+    border: 2px solid #ccc;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ 
+  }
+#galeria{
+    background-color: #ffe7e7;
+}
+
+.carousel.slide h5{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/* CONTACT */
+
+
+.form-control  {
+
+    
+    border: 2px solid #e9e6e6;
+    font-size: 14px;
+   
+   
+}
+
+
+.address-info {
+    overflow: hidden;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+
+.title-heading {
+    font-weight: 900;
+}
+
+
+.btn-custom {
+    font-size: 15px;
+    transition: all 0.4s;
+    background: #910303;
+    color: #fff !important;
+}
+
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    box-shadow: none !important;
+    background: #797979;
+}
+
+
+.text-uppercase{
+    color: #910303;
+    font-size: 35px;
+}
+
+
+.text-custom{
+    color: #910303;
+    
+}
+
+/* MAPA*/
+
+#map{
+    height: 95vh;
+    width: 100hw;
+}
+
+/* FOOTER */
+
+.footer{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #83888e;
+}
+
+.footer-menu h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+}
+.footer-menu h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.footer-menu p,
+.footer span {
+    font-size: 14px;}
+
+.footer-menu li a {
+    font-size: 14px;
+    display: inline-block;
+    transition: all 0.5s;
+    line-height: 32px;
+    color: #818d9c!important;
+}
+
+
