@@ -21,9 +21,17 @@ var rectangle = L.rectangle([
 
 ]).addTo(map);
 
+var polygon = L.polygon([
+    [-12.03424,-77.14225],
+    [-12.03418,-77.14223],
+    [-12.0336,-77.1416]
+]).addTo(map);
+
 marker.bindPopup("<b>Hola mundo!</b><br>Estoy en el Callao.").openPopup();
 circle.bindPopup("Estoy en medio del mar.");
 rectangle.bindPopup("Nose donde estoy.");
+polygon = L.polygon("Que tal ?");
+
 
 var popup = L.popup()
     .setLatLng([-12.07239,-77.16770])
